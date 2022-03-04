@@ -7,11 +7,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.Write("n-i daxil edin: ");
-            var n = Convert.ToInt32(Console.ReadLine());
+            int n = Convert.ToInt32(Console.ReadLine());
             Console.Write("m-i daxil edin: ");
             int m = Convert.ToInt32(Console.ReadLine());
             int counter = 0;
-            Console.Write("Neciye bolmek isteyirsiniz?:");
+            Console.Write("Neciye bolmek isteyirsiniz?: ");
             int x = Convert.ToInt32(Console.ReadLine());//Bolunen eded
             if (n < m)
             {
