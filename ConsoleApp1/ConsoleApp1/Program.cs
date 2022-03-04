@@ -30,7 +30,7 @@ namespace ConsoleApp1
                 
             }
             else if(n==m){
-                Console.WriteLine("Ededler beraberdiler ");
+                Console.WriteLine("Ededler beraberdiler");
             }
             else if(n>m)
             {            

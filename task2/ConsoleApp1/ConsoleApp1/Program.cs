@@ -10,29 +10,28 @@ namespace ConsoleApp1
 
             switch (month)
             {
-                case "Yanvar":
-                case "Mart":
+                case "yanvar":
+                case "mart":
                 case "may":
-                case "Iyul":
-                case "Avgust":
-                case "Oktyabr":
-                case "Dekabr":
+                case "iyul":
+                case "avgust":
+                case "oktyabr":
+                case "dekabr":
                     Console.WriteLine(31);
                         break;
-                case "Aprel":
-                case "Iyun":
-                case "Sentyabr":
-                case "Noyabr":
+                case "aprel":
+                case "iyun":
+                case "sentyabr":
+                case "noyabr":
                     Console.WriteLine(30);
                     break;
-                case "Fevral":
+                case "evral":
                     Console.WriteLine(28);
                     break;
 
                 default:
                     Console.WriteLine("Bele Bir ay yoxdur");
                     break;
-
 
 
             }
